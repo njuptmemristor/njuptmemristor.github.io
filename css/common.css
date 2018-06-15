@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body,.wrap{
+    height:100%;
+}
+body>.wrap{
+	height:auto;
+	min-height:100%;
+}
+
+.mains{
+	padding-bottom:150px;
+}
+
+.footers{
+	position:relative;
+	margin-top:-60px;
+	height:60px;
+	clear:both;
+	background:#ff5e2f;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix{
+	display:inline-block;
+}
+* html .clearfix{
+	height:1%;
+}
+.clearfix{
+	display:block;
+}
+
+#title{
+	color:#fff;
+	font-size:1.5em;
+}
+#row-rules{
+	padding-left: 2em;
+}

@@ -1,0 +1,103 @@
+body {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+#head-container {
+	background:url(../files/body.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:700px;
+	margin: 0 auto;
+	width:100%;
+}
+
+#header a {
+	font-variant: normal;
+	color: white;
+	display: block;
+	width: auto;
+	font-size: 20px;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	position:relative
+}
+
+#header a span{		/*设置a标签下的span属性默认为隐藏*/
+	display: none;
+}
+
+#header a:hover span {	/*设置hover下的span属性为呈现状态,并设置提示层的位置*/
+	display:block;
+	position:absolute;
+	color:#FFF;
+	padding:5px;
+	text-align:right;
+	right:5px;
+}
+
+#header a:hover {
+	color: #EC9F37;
+}
+
+#header { 
+	position:relative; 
+	width: 1200px; 
+	height: 80px; 
+	margin: 20px auto 0 auto; 
+	text-align:center;
+} 
+
+#header2 { 
+	position:relative; 
+	width: 1200px; 
+	height: 80px; 
+	margin: 20px auto 0 auto; 
+	text-align:center;
+} 
+
+
+#header ul { 
+	position: relative; 
+	left: 50%; 
+	float: left; 
+} 
+#header li { 
+	position: relative; 
+	right: 50%; 
+	display: inline; 
+	float: left; 
+	margin-left: 10px; 
+	line-height: 38px; 
+} 
+
+#head-title{
+	top:160px;
+	position:relative; 
+	width: 700px; 
+	height: 233px; 
+	margin: 20px auto 0 auto; 
+	border: solid 1px #D4D4D4; 
+}
+
+#menu-style{
+	font-size:16px;
+}
+
+#menu { 
+	position:absolute; 
+	left:10px; 
+	width:100%; 
+	text-align:center; 
+	font-size:14px; 
+	z-index:9999;
+}
+
+#body-container{
+	padding:10px; 
+	margin:0 auto;
+	position:relative;
+}

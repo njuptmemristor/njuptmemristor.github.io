@@ -1,0 +1,291 @@
+body {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+	font-family: 'OpenSans-Regular';
+}
+
+body a:hover{
+	text-decoration:none;
+}
+
+#head-container {
+	background:url(../img/body.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:700px;
+	margin: 0 auto;
+	width:100%;
+}
+
+#header a {
+	font-variant: normal;
+	color: white;
+	display: block;
+	width: auto;
+	font-size: 20px;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	position:relative
+}
+
+#header a span{		/*设置a标签下的span属性默认为隐藏*/
+	display: none;
+}
+
+#header a:hover span {	/*设置hover下的span属性为呈现状态,并设置提示层的位置*/
+	display:block;
+	position:absolute;
+	color:#FFF;
+	padding:5px;
+	text-align:right;
+	right:5px;
+}
+
+#header a:hover {
+	color: #EC9F37;
+}
+
+#header { 
+	position:relative; 
+	width: 1200px; 
+	height: 80px; 
+	margin: 20px auto 0 auto; 
+	text-align:center;
+} 
+
+#header2 { 
+	position:relative; 
+	width: 1200px; 
+	height: 80px; 
+	margin: 20px auto 0 auto; 
+	text-align:center;
+} 
+
+
+#header ul { 
+	position: relative; 
+	left: 50%; 
+	float: left; 
+} 
+#header li { 
+	position: relative; 
+	right: 50%; 
+	display: inline; 
+	float: left; 
+	margin-left: 10px; 
+	line-height: 38px; 
+} 
+
+#head-title{
+	top:160px;
+	position:relative; 
+	width: 700px; 
+	height: 233px; 
+	margin: 20px auto 0 auto; 
+	border: solid 1px #D4D4D4; 
+}
+
+#menu-style{
+	font-size:15px;
+}
+
+
+#menu { 
+	position:absolute; 
+	left:10px; 
+	width:100%; 
+	text-align:center; 
+	font-size:14px; 
+	z-index:9999;
+}
+
+#body-container{
+	padding:10px; 
+	margin:0 auto;
+	position:relative;
+}
+
+.main_body {
+  padding: 5em 0 2em;
+}
+
+.main_body img{
+	width:100%;
+}
+
+.main_body h5 {
+  font-size: 1.8em;
+  color: #201F1F;
+}
+
+.main_body p {
+  font-size: 1em;
+  margin: 1em auto 1.5em;
+  line-height: 1.8em;
+  color:#6b6b6b;
+}
+
+/*------------btn---------------*/
+
+.btn {
+  border:1px solid #333;
+  color: #333;
+  font-size: 1em;
+  background: none;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  display: inline-block;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.btn:after {
+	width: 0;
+	height: 103%;
+	top: 50%;
+	left: 50%;
+	background: #0080ff;	
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.btn:hover,
+.btn:active {
+	color: #fff;
+	border-color:#804040;
+}
+
+.btn:hover:after {
+	width: 100%;
+	opacity: 1;
+}
+
+/*----------------------*/
+#link a{
+	color:#6b6b6b;
+}
+
+#link a:hover{
+	color:#1784a8;
+}
+
+
+
+/*--------------------*/
+.contact {
+  margin: 5em 0;
+}
+.contact-grids {
+  padding-top: 4em;
+  text-align: center;
+}
+.contact-img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#contact-name, #contact-loc{
+	font-size: 1.3em;
+}
+
+/*--------------------------------------*/
+
+/* .footer-bottom {
+  background-color: #201F1F;
+  padding: 2em 0;
+  text-align: center;
+}
+.footer-info p {
+  color: #fff;
+  font-size: 1em;
+} */
+#footer{
+	color:#fff;
+	width:100%;
+	height:90px;
+	background:black;
+}
+
+#footer_container{
+	padding-top: 15px; 
+	padding-right: 10px; 
+	padding-bottom: 10px; 
+	padding-left: 10px; 
+}
+
+#footer_container p{
+	text-align:center;
+}
+
+
+/*--------------------------------------*/
+
+@media(max-width:480px){
+	
+	.header {
+	  padding: 1.5em 0;
+	}
+	
+	.main_body {
+	  padding: 1.5em 0 0;
+	}
+	.main_body_block {
+	  padding: 0;
+	  float: none;
+	  width: 100%;
+	}
+	.main_body h5 {
+	  margin-top: 0.6em;
+	  font-size: 1.4em;
+	}
+
+	.btn {
+	  font-size: 0.8em;
+	  padding: 0.3em .6em;
+	}
+	
+	.contact {
+	  margin: 1.5em 0 0.5em;
+	}
+	.contact-grids {
+	  padding-top: 1.2em;
+	}
+	.contact-info {
+	  width: 100%;
+	  padding: 0;
+	  margin-bottom: 1.2em;
+	}
+	.contact-img img {
+	  width: initial;
+	}
+	.contact-img {
+	  width: initial;
+	}
+}
+
+
+/*======================================*/
+
+article .col {
+    margin: auto;
+    text-align: center;
+} 

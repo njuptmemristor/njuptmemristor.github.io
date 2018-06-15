@@ -1,0 +1,356 @@
+/* -----------menbers------------- */
+body{
+	height: auto;
+	width: auto;
+	/* background-image: linear-gradient(to top, #2c334b,#2c767a); */
+	background-image: linear-gradient(to top, #2c767a,#2c767a); 
+	/* background-image: linear-gradient(to top, #2c334b,#2c334b); */
+}
+
+.container { 
+	margin: 0 auto;   
+}
+
+#member_container .row { 
+	clear: both; 
+	padding-top: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 10px; 
+	padding-left: 10px; 
+}
+
+#member_container {
+	text-decoration:none; 
+	color:#f55b1f;
+	top:70px;
+}
+
+#member_container h2 { 
+	color: #eb7a14; 
+}
+#member_container h3 { 
+	color: #f55b1f; 
+}
+
+h4 { 
+	color: #FF961F; 
+}
+
+p {  
+	color: #FFF; 
+	font-family: Arial, sans-serif; 
+}
+
+hr { 
+	display: block; 
+	height: 1px; 
+	border: 0; 
+	border-top: 1px dashed #ccc; 
+	margin: 1em 0; 
+	padding: 0;
+}
+article { 
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+}
+
+@media only screen and (max-width: 480px) {
+ article img { margin-bottom: 10px; }
+ article .btn { margin-bottom: 20px; }
+ h4, p { text-align: center; }
+ 
+ #groupNum{ 
+ 	overflow:hidden;  
+    position:absolute;  
+    display:none;
+}
+
+
+}
+
+@media only screen and (max-width: 320px) {
+	#left{font-size:15px;}
+	#right{
+		font-size:10px;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 992px) {
+  .container {  display: table; }
+  #member_container {  padding-top: 10px; display: table-cell;}
+ .col-md-9 { float: none; }
+ 
+ 
+}
+
+@media only screen and (max-width: 991px) {
+  .container { display: block; }
+  #member_container { display: block; }
+}
+
+/*-----------------------------------*/
+
+
+#footer{
+	width:100%;
+	height:90px;
+	background:black;
+}
+
+#footer_container{
+	padding-top: 15px; 
+	padding-right: 10px; 
+	padding-bottom: 10px; 
+	padding-left: 10px; 
+}
+
+#footer_container p{
+	text-align:center;
+}
+/*----------------news------------------*/
+
+#article{
+	height:auto;
+	width:100%;
+	margin-top:10px;
+	margin-left:0px;
+	background:#FFF;
+}
+
+#news_title{
+	height:30px;
+	width:100%;
+}
+
+#content h3 {
+	color:#FFF;
+	text-align:center;
+}
+
+#content h5 {
+	color:#FFF;
+	text-align:center;
+}
+
+#content{
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#content p{
+	color:#FFF;
+	word-wrap:break-word;
+}
+
+/* -------middle-------- */
+#main_inf{
+	font-size:16px;
+	color:#FFF;
+}
+
+#main_inf a{
+	text-decoration:none;
+}
+
+#main_inf a:link{
+            color: #FFF;
+        }
+        /*访问后得状态*/
+#main_inf a:visited{
+            color: #c0c0c0;
+        }
+        /*鼠标悬浮状态*/
+#main_inf a:hover{
+            color: #eb7a14;
+        }
+#right{
+	float:right;
+}
+/*-------------bio----------------*/
+
+#bio-body {
+	height: auto;
+	width: auto;
+	/* background-image: linear-gradient(to top, #2c334b,#2c767a); */
+	background-image: linear-gradient(to top, #2c767a,#2c767a); 
+	/* background-image: linear-gradient(to top, #2c334b,#2c334b); */
+	text-align:justify; 
+	text-justify:inter-ideograph;
+}
+.clear {clear: both;}
+
+p {
+	color: #ffffff;
+}
+
+#bio-container {
+	width: 90%;
+	max-width: 800px;
+	background-image: linear-gradient(to top, #2c767a,#2c767a);
+	margin: 30px auto;
+}
+
+#personalInfo {
+	margin: 0 auto;
+	padding: 25px 35px;
+	border-bottom: 2px solid #ffffff;
+	background-image: linear-gradient(to top, #2c767a,#2c767a);
+}
+
+
+#bioInfo {
+	padding: 0 40px;
+}
+
+#headImg {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headImg img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name h2,h4 {
+	color:#ffffff;
+}
+#name h4{
+	float:left;
+}
+
+#bio-section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+#bio-section:first-child {
+	border-top: 0;
+}
+
+#bio-section:last-child {
+	padding: 20px 0 10px;
+}
+
+#pbTitle {
+	float: left;
+	width: 25%;
+}
+
+#pbContent {
+	text-align:left;
+} 
+
+#pbTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	color: #ff8040;
+}
+
+#pbContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -0.5px;
+	color: #ff8040;
+}
+#pbContent h5 {
+	color:#ffffff;
+}
+
+#pbContent ul{
+	list-style:none;
+	color:#ffffff;
+}
+#pbContent p {
+	font-size:1.1em;
+	text-align:left;
+	text-indent:2em;
+}
+
+@media all and (max-width: 601px) {
+	#bio-container {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	#headImg {
+		display: none;
+	} 
+	
+	#name {
+		float: none;
+		width: 100%;
+	}
+	
+	#pbTitle, #pbContent {
+		float: none;
+		width: 100%;
+		
+	}
+	
+	#pbTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+}
+
+@media all and (max-width: 480px) {
+	#personalInfo {
+		padding: 15px 15px;
+	}
+	
+	#bio-section {
+		padding: 15px 0 0;
+	}
+	
+	#bioInfo {
+		padding: 0 25px;
+	} 
+	
+}
+
+@media print {
+    #bio-container {
+        width: 100%;
+    }
+}
+
+
+/*===============================*/
+
+#group{  
+    position:positive;  
+}   
+#group li{  
+    list-style:none;  
+}  
+
+#groupImg li{  
+    display:none;  
+}  
+
+#groupNum{  
+    overflow:hidden;  
+    position:absolute;  
+    right:10px;  
+    color:#FFF;  
+}  
+#groupNum li{  
+	border:1px solid;
+	border-radius:25px;
+    float:left;  
+    margin:0px 5px;  
+    padding:3px 10px;  
+}  
+.nums{  
+    background-color:#ff8040;  
+    color:#ffffff;  
+} 
